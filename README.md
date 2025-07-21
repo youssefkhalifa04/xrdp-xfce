@@ -30,8 +30,12 @@ This Dockerfile creates a containerized Ubuntu 22.04 environment with XRDP and X
    docker run -d -p 3390:3389 --name xrdp-xfce xrdp-xfce
    ```
    ```sh
-   /usr/sbin/xrdp-sesman &
-/usr/sbin/xrdp -n &
+   /usr/sbin/xrdp-sesman & 
+   
+   ```
+   ```sh
+   /usr/sbin/xrdp -n &
+   
    ```
 
 3. **Connect via RDP:**
