@@ -1,0 +1,9 @@
+1. WSL problem 
+    wsl --unregister
+    wsl --unistall 
+    wsl --install 
+(You have to make all these steps every time this error appears to you)
+2. Port 3389 is already in use 
+    For this problem you have to diffrent senarios : 
+    The first option is to kill the service that is listening to the port 3389
+    The second option is to make a light change in the command and just choose any other port that is not in service 
